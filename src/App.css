@@ -1,0 +1,40 @@
+body {
+  background-image: url(sparkles.gif);
+  background-color: lightblue;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: #274156
+}
+
+.bio {
+  text-align: center;
+  color: #F3E4E6;
+  margin-top: 16px;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 14px;
+  border: 1;
+  border-radius: 5px;
+  
+}
